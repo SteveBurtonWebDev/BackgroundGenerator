@@ -6,7 +6,7 @@ let randomButton = document.querySelector(".randomButton");
 
 function displayNewBackground() {
   body.style.background =
-  "linear-gradient(to right, " + color1.value + "," + color2.value + ")";
+  "linear-gradient(to bottom, " + color1.value + "," + color2.value + ")";
   css.textContent = body.style.background + ";";
 }
 
