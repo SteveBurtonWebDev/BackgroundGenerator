@@ -6,7 +6,22 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow);
+}
+
+.color1, .color2 {
+    width: 70px;
+    height: 40px;
+    background-color: darkslategray;
+}
+
+.toolButtons {
+    margin-top: 20px;
+}
+
+.randomButton, .rotateButton {
+    background-color: darkslategray;
+    color: white;
+    border-color: white;
 }
 
 h1 {
@@ -14,11 +29,9 @@ h1 {
     font-size: calc(1em + 2vw);
     font-weight: 700;
     text-shadow: 2px 2px 3px black;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
-		margin-top: 40px;
+	margin-top: 40px;
 }
 
 h2 {
@@ -29,7 +42,6 @@ h2 {
 }
 h3 {
     font-size: calc(.4em + 1.2vw);
-    text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
     text-shadow: 1px 1px 3px black;
